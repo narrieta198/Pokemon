@@ -1,0 +1,22 @@
+.pokemoninfo {
+    color: black;
+    display: inline-block;
+}
+
+/* the following colors are TEMPORARY, and are simply being used to locate and distingush each element easily
+top right bottom left */
+.pokemoninfo > figure > img {
+    background-color: powderblue; 
+}
+.pokemoninfo > .evolution {
+    background-color: powderblue;
+ 
+
+}
+.pokemoninfo > .counters {
+    background-color: powderblue; 
+
+}
+.pokemoninfo > .description {
+    background-color: powderblue; 
+}
