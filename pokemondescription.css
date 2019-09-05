@@ -14,8 +14,10 @@ a:visited {
 
 .logo>figure>img {
     margin-top: -10px;
-    margin-left: 750px;
+    margin-left: 50%;
     border-radius: 15px;
+    
+  
 }
 
 .pokemoninfo {
@@ -124,6 +126,7 @@ nav>ul {
 .welcomegif>figure>img {
     margin: -150px -100px -100px 150px;
     padding-left: 500px;
+    margin-top: -250px;
 }
 
 footer {
