@@ -120,6 +120,7 @@
             
             .welcomegif>figure>img {
                 margin: -150px -100px -100px 150px;
+                padding-left: 500px;
             }
             
             footer {
@@ -130,4 +131,8 @@
                 padding: 1rem;
                 background-color: #efefef;
                 text-align: center;
+            }
+            
+            nav {
+                background-color: white;
             }
