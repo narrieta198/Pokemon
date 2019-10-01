@@ -1,124 +1,40 @@
 body {
     font-family: 'Fredoka One', cursive;
     background-color: #911d14;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
-a:visited {
-    text-decoration: none;
-    color: black;
+.logo {
+    margin: 0;
 }
-
-.logo > figure > img {
-    margin-top: -10px;
-    margin-left: -40px;
-}
-
-.pokemoninfo {
-    margin-top: 100px;
-    color: black;
-    background-color: #911d14;
+.row1container {
+    height: 150px;
     width: 100%;
-    height: 460px;
+    background: linear-gradient(0deg, rgba(210,210,210,1) 35%, rgba(237,237,237,1) 100%);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
-
+    color: #7d7d7d;
+    text-decoration: none;
 }
-
-/* the following colors are TEMPORARY, and are simply being used to locate and distingush each element easily
-top right bottom left */
-.pokemoninfo > figure > img {
-    width: 300px;
-    height: 300px;
-    border-radius: 15px;
-    box-shadow: -6px 6px #5c1212;
-    background-color: white;
+.row1container a {
+    color: #7d7d7d;
+    font-size: 2em;
+}
+.logo img {
+    margin-left: -50px;
+}
+.row1container  nav ul{
     display: flex;
-    padding: 5px;
-}
-.pokemoninfo > .evolution {
-    background-color: white;
-    display: flex;
-    justify-content: flex-start;
-    width: 300px;
-    margin: auto;
-    height: 300px;
-    align-items: center;
-    border-radius: 15px;
-    box-shadow: -6px 6px #5c1212;
-}
- 
-.pokemoninfo > .evolution > p {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.pokemoninfo > h2 {
-    background-color: white;
-    display: flex;
-    margin: auto;
-    border-radius: 15px;
-    padding: 10px;
-    box-shadow: -6px 6px #5c1212;
-}
-
-.pokemoninfo > .counters {
-    background-color: white; 
-    display: flex;
-    width: 300px;
-    margin: auto;
-    height: 300px;
-    align-items: center;
-    border-radius: 15px;
-    box-shadow: -6px 6px #5c1212;
-}
-
-.pokemoninfo > .counters > p {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.pokemoninfo > .description {
-    background-color: white; 
-    justify-content: flex-end;
-    display: flex;
-    margin: auto;
-    padding: 10px;
-    border-radius: 15px;
-    box-shadow: -6px 6px #5c1212;
-}
-
-nav > ul > li {
-    display: inline;
-    padding: 5px;
-}
-
-nav > ul {
-margin-left: 150px;
-margin-top: -100px;
-}
-
-.popularpokemon > ul > li{
+    flex-direction: row;
     list-style: none;
-border-left: 4px solid black;
-padding: 10px;
+    margin-left: -50px;
 }
-
-.popularpokemon{
-    margin-top: 100px;
-    padding: 10px;
-    background-color: white; 
-    width: 200px;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: -6px 6px #5c1212;
-    margin-left: 100px;
-}
-
-.welcomegif > figure > img  {
-    margin: 500px;
+.row1container  nav ul li {
+    margin-left: 20px;
 }
