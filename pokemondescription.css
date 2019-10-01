@@ -1,4 +1,4 @@
-body {
+body{
     font-family: 'Fredoka One', cursive;
     background-color: #911d14;
     margin: 0;
@@ -6,15 +6,36 @@ body {
     color: white;
 }
 
-a {
+a{
     text-decoration: none;
     color: white;
 }
+<<<<<<< Updated upstream
 .logo {
     margin: 0;
 }
 .row1container {
     height: 150px;
+=======
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.logo>figure>img{
+    margin-top: -10px;
+    margin-left: 50%;
+    border-radius: 15px;
+    
+  
+}
+
+.pokemoninfo{
+    margin-top: 100px;
+    color: black;
+    background-color: #911d14;
+>>>>>>> Stashed changes
     width: 100%;
     background: linear-gradient(0deg, rgba(210,210,210,1) 35%, rgba(237,237,237,1) 100%);
     display: flex;
@@ -22,6 +43,7 @@ a {
     color: #7d7d7d;
     text-decoration: none;
 }
+<<<<<<< Updated upstream
 .row1container a {
     color: #7d7d7d;
     font-size: 2em;
@@ -32,9 +54,123 @@ a {
 .row1container  nav ul{
     display: flex;
     flex-direction: row;
+=======
+
+.pokemoninfo>figure>img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: -6px 6px #5c1212;
+    background-color: white;
+    display: flex;
+    padding: 5px;
+}
+
+.pokemoninfo>.evolution{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    margin: auto;
+    height: 300px;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: -6px 6px #5c1212;
+}
+
+.pokemoninfo>.evolution>p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pokemoninfo>h2{
+    background-color: white;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: -6px 6px #5c1212;
+}
+
+.pokemoninfo>.counters{
+    background-color: white;
+    display: flex;
+    width: 300px;
+    margin: auto;
+    height: 300px;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: -6px 6px #5c1212;
+}
+
+.pokemoninfo>.counters>p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pokemoninfo>.description{
+    background-color: white;
+    justify-content: flex-end;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: -6px 6px #5c1212;
+}
+
+nav>ul>li{
+    margin-left: 250px;
+    display: inline;
+    padding: 5px;
+}
+
+nav>ul{
+    padding: 25px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.popularpokemon>ul>li{
+>>>>>>> Stashed changes
     list-style: none;
     margin-left: -50px;
 }
+<<<<<<< Updated upstream
 .row1container  nav ul li {
     margin-left: 20px;
 }
+=======
+
+.popularpokemon{
+    margin-top: 100px;
+    padding: 10px;
+    background-color: white;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: -6px 6px #5c1212;
+    margin-left: 100px;
+}
+
+.welcomegif>figure>img{
+    margin: -150px -100px -100px 150px;
+    padding-left: 500px;
+    margin-top: -250px;
+}
+
+footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #efefef;
+    text-align: center;
+}
+
+nav{
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -6px 6px #5c1212;
+}
+>>>>>>> Stashed changes
